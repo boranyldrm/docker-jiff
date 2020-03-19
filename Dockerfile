@@ -9,4 +9,6 @@ COPY . .
 
 EXPOSE 8080
 
-CMD [ "node", "app/server.js" ]
+ENV name ""
+
+CMD ["node", "demos/${name}/server.js" ]

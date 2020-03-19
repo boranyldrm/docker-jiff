@@ -185,3 +185,9 @@ typings/
 
 logs/
 *.swp
+
+
+# build, run and clear scripts
+build.sh
+clear.sh
+run.sh
