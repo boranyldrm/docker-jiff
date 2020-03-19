@@ -9,6 +9,6 @@ COPY . .
 
 EXPOSE 8080
 
-ENV name ""
+ENV demo "mpc-as-a-service"
 
-CMD ["node", "demos/${name}/server.js" ]
+CMD ["sh", "-c", "node demos/${demo}/server.js"]
